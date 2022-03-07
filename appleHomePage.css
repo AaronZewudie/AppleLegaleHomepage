@@ -1,0 +1,488 @@
+/* Aaron zewudie
+first draft  Apple terms of user home page CSS file */
+* {
+  padding: 0;
+  margin: 0;
+}
+/* defulty html style section  */
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 17px;
+}
+
+/* first tab style section  */
+.tab1 {
+  background-color: black;
+  text-align: center;
+
+  justify-content: space-between;
+}
+
+.tab1 ul {
+  display: flex;
+  list-style: none;
+  color: darkgreen;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.tab1 ul li {
+  width: 70%;
+  height: 25px;
+  margin: 4px;
+  padding: 10px;
+  justify-content: space-between;
+  list-style-type: none;
+}
+
+.tab1 ul li a {
+  text-decoration: none;
+  color: chartreuse;
+  list-style-type: none;
+}
+.tab1 ul li a img {
+  width: 18px;
+}
+.active-1,
+.tab1 ul li a:hover {
+  background: #2ba;
+  border-radius: 3px;
+  background-color: grey;
+  color: blue;
+  opacity: 0.5;
+}
+/* tab-2 style sction  */
+.tab2 {
+  background-color: whitesmoke;
+  text-align: center;
+  border-bottom: black;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.tab2 ul {
+  display: inline-flex;
+  list-style: none;
+  color: #fff;
+}
+
+.tab2 ul li {
+  width: 80px;
+  margin: 15px;
+  padding: 15px;
+  height: 25px;
+}
+
+.tab2 ul li a {
+  text-decoration: none;
+  color: chartreuse;
+}
+
+.active-2,
+.tab2 ul li :hover {
+  background: #2ba;
+  border-radius: 3px;
+  color: blue;
+  background-color: grey;
+  opacity: 0.7;
+}
+h2 {
+  margin-left: 5%;
+}
+h3 {
+  border-bottom: black;
+}
+/* ownership  style  section */
+.ownership {
+  margin: 0% 10% 0 15%;
+}
+/* content style section  */
+.content {
+  margin: 0% 10% 0 15%;
+}
+/* your use of the site tyle section  */
+.yourUseSite {
+  margin: 0% 10% 0 15%;
+}
+/* purchase style section  */
+.purchases {
+  margin: 0% 10% 0 15%;
+}
+/* account style section  */
+.account {
+  margin: 0% 10% 0 15%;
+}
+/* privacy style section  */
+.privacy {
+  margin: 0% 10% 0 15%;
+}
+/* links to other style section  */
+.linksToOther {
+  margin: 0% 10% 0 15%;
+}
+/* .disclaimers style section  */
+.disclaimers {
+  margin: 0% 10% 0 15%;
+}
+/* limitation of liability style section  */
+.limitation {
+  margin: 0% 10% 0 15%;
+}
+/* .indemnity style section  */
+.indemnity {
+  margin: 0% 10% 0 15%;
+}
+/* violation of use style section */
+.Violation {
+  margin: 0% 10% 0 15%;
+}
+/* governing low style section */
+.resolution {
+  margin: 0% 10% 0 15%;
+}
+/* void where prohibited style section  */
+.void {
+  margin: 0% 10% 0 15%;
+}
+/* miscellaneous style section  */
+.miscellaneous {
+  margin: 0% 10% 0 15%;
+}
+/* feedback and information style section  */
+.information {
+  margin: 0% 10% 0 15%;
+}
+
+/* footer style section */
+.footer-top-wrapper {
+  background-color: dimgray;
+}
+.footer-wrapper {
+  color: black;
+  font-size: medium;
+  font-family: "Courier New", Courier, monospace;
+
+  padding: 30px 30px 25px 30px;
+  background-color: dimgray;
+  max-width: 980px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.footer-wrapper.tradeInformation-wrapper {
+  opacity: 0.5;
+  font-weight: lighter;
+}
+.tradeInformation-wrapper a {
+  text-decoration: none;
+  list-style: none;
+  list-style-type: none;
+}
+.tradeInformation-wrapper li a::after {
+  font-family: "FontAwesome";
+  content: "\f105";
+  font-weight: 900;
+  padding-left: 10px;
+}
+.tradeInformation-wrapper a:hover {
+  color: blue;
+  block-size: 2px;
+}
+.tradeInformation-wrapper {
+  border-bottom: solid;
+  margin: 0%;
+}
+.FooterRow-wrapper {
+  margin: 10px;
+  padding: 10px;
+  column-gap: 15px;
+  display: inline-flex;
+}
+/* shop and learn  block style style */
+.shopLearn-list-wrapper {
+  color: lightslategray;
+}
+.shopLearn-list-wrapper ul {
+  list-style: none;
+}
+.shopLearn-list-wrapper ul li {
+  margin: 2px;
+  padding: 2px;
+}
+.shopLearn-list-wrapper ul li a {
+  list-style-type: none;
+  text-decoration: none;
+}
+.shopLearn-list-wrapper ul li a:hover {
+  color: blue;
+  block-size: 2px;
+}
+
+/* Services  block style style */
+
+.services-list-wrapper {
+  color: lightslategray;
+}
+.services-list-wrapper ul {
+  list-style: none;
+}
+.services-list-wrapper ul li {
+  margin: 2px;
+  padding: 2px;
+}
+.services-list-wrapper ul li a {
+  list-style-type: none;
+  text-decoration: none;
+}
+.services-list-wrapper ul li a:hover {
+  color: blue;
+  block-size: 2px;
+}
+/* account  sub block style  */
+
+.account-wrapper {
+  color: lightslategray;
+}
+.account-wrapper h3 {
+  color: black;
+}
+.account-wrapper ul {
+  list-style: none;
+}
+.account-wrapper ul li {
+  margin: 2px;
+  padding: 2px;
+}
+.account-wrapper ul li a {
+  list-style-type: none;
+  text-decoration: none;
+}
+.account-wrapper ul li a:hover {
+  color: blue;
+  block-size: 2px;
+}
+
+/* Apple Store block  Style  */
+
+.store.store-wrapper {
+  color: lightslategray;
+}
+.store-wrapper h3 {
+  color: black;
+}
+.store-wrapper ul {
+  list-style: none;
+}
+.store-wrapper ul li {
+  margin: 2px;
+  padding: 2px;
+}
+.store-wrapper ul li a {
+  list-style-type: none;
+  text-decoration: none;
+}
+.store-wrapper ul li a:hover {
+  color: blue;
+  block-size: 2px;
+}
+
+/* For Business block  style  */
+.Business.Business-wrapper {
+  color: lightslategray;
+}
+.Business-wrapper h3 {
+  color: black;
+}
+.Business-wrapper ul {
+  list-style: none;
+}
+.Business-wrapper ul li {
+  margin: 2px;
+  padding: 2px;
+}
+.Business-wrapper ul li a {
+  list-style-type: none;
+  text-decoration: none;
+}
+.Business-wrapper ul li a:hover {
+  color: blue;
+  block-size: 2px;
+}
+/* 
+ For Education sub block  style  */
+
+.Business.Education-wrapper {
+  color: lightslategray;
+}
+.Education-wrapper h3 {
+  color: black;
+}
+.Education-wrapper ul {
+  list-style: none;
+}
+.Education-wrapper ul li {
+  margin: 2px;
+  padding: 2px;
+}
+.Education-wrapper ul li a {
+  list-style-type: none;
+  text-decoration: none;
+}
+.Education-wrapper ul li a:hover {
+  color: blue;
+  block-size: 2px;
+}
+
+/* For Healthcare  sub block style  */
+.Business.Healthcare-wrapper {
+  color: lightslategray;
+}
+.Healthcare-wrapper h3 {
+  color: black;
+}
+.Healthcare-wrapper ul {
+  list-style: none;
+}
+.Healthcare-wrapper ul li {
+  margin: 2px;
+  padding: 2px;
+}
+.Healthcare-wrapper ul li a {
+  list-style-type: none;
+  text-decoration: none;
+}
+.Healthcare-wrapper ul li a:hover {
+  color: blue;
+  block-size: 2px;
+}
+
+/* for Government  sub block style  */
+.Business.Government-wrapper {
+  color: lightslategray;
+}
+.Government-wrapper h3 {
+  color: black;
+}
+.Government-wrapper ul {
+  list-style: none;
+}
+.Government-wrapper ul li {
+  margin: 2px;
+  padding: 2px;
+}
+.Government-wrapper ul li a {
+  list-style-type: none;
+  text-decoration: none;
+}
+.Government-wrapper ul li a:hover {
+  color: blue;
+  block-size: 2px;
+}
+
+/* for apple block style  */
+.Values.values-wrapper {
+  color: lightslategray;
+}
+.values-wrapper h3 {
+  color: black;
+}
+.values-wrapper ul {
+  list-style: none;
+}
+.values-wrapper ul li {
+  margin: 2px;
+  padding: 2px;
+}
+.values-wrapper ul li a {
+  list-style-type: none;
+  text-decoration: none;
+}
+.values-wrapper ul li a:hover {
+  color: blue;
+  block-size: 2px;
+}
+
+/* for about apple sub block style  */
+.Apple-wrapper {
+  color: lightslategray;
+}
+.Apple-wrapper h3 {
+  color: black;
+}
+.Apple-wrapper ul {
+  list-style: none;
+}
+.Apple-wrapper ul li {
+  margin: 2px;
+  padding: 2px;
+}
+.Apple-wrapper ul li a {
+  list-style-type: none;
+  text-decoration: none;
+}
+.Apple-wrapper ul li a:hover {
+  color: blue;
+  block-size: 2px;
+}
+
+/* footer more way information section style  */
+
+.moreways {
+  color: black;
+}
+.moreways .shop-wrapper a {
+  color: blueviolet;
+  list-style-type: none;
+  text-decoration: none;
+  list-style: none;
+}
+.moreways .shop-wrapper a:hover {
+  color: blue;
+  block-size: 2px;
+}
+.shop-wrapper {
+  border-bottom: solid;
+  margin: 0%;
+}
+/* policy style */
+.copyRight {
+  padding: 5px;
+  column-gap: 1px;
+  display: inline-flex;
+  width: 1000px;
+  font: size 9px;
+}
+
+.policy-wrapper {
+  color: black;
+}
+.policy-wrapper ul {
+  display: inline-flex;
+}
+.policy-wrapper ul li {
+  padding: 2px;
+  list-style-type: none;
+}
+.policy-wrapper ul li a {
+  list-style-type: none;
+  list-style: none;
+  text-decoration: none;
+}
+.policy-wrapper ul li a:hover {
+  color: blue;
+  block-size: 2px;
+}
+.countery-wrapper {
+  padding: 2px;
+  color: black;
+  display: inline-flex;
+}
+.countery-wrapper img {
+  padding: 0px;
+  width: 12px;
+  height: 12px;
+}
+.countery-wrapper h2 {
+  padding: 0px;
+}
